@@ -19,6 +19,10 @@
   width: 95%;
   height: 350px;
   background-color: #291302;
+  background: linear-gradient(45deg, #ffe7a6 12%, transparent 0, transparent 88%, #ffe7a6 0),
+    linear-gradient(135deg, transparent 37%, #ffe7a6 0, #ffe7a6 63%, transparent 0),
+    linear-gradient(45deg, transparent 37%, #ffe7a6 0, #ffe7a6 63%, transparent 0) #291302;
+    background-size: 45px 45px;
   border-radius: 20px;
 }
 .dial-side{
