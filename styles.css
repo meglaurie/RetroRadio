@@ -1,0 +1,71 @@
+.box{
+  position: relative;
+  margin: auto;
+  display: block;
+  background: white;
+
+}
+
+.radio-body{
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #ffe7a6;
+  border: solid 4px black;
+  border-radius: 20px;
+}
+.speaker-side{
+  width: 95%;
+  height: 350px;
+  background-color: #291302;
+  border-radius: 20px;
+}
+.dial-side{
+  width: 95%;
+  height: 350px;
+  border-radius: 20px;
+}
+.gold-trim{
+  padding: 50px;
+  height: 342px;
+  background-image: url('Gold-Foil.jpg');
+  border-radius: 20px;
+}
+.dial-numbers{
+  padding: 30px;
+  background-color: #291302;
+  height: 263px;
+  border-radius: 20px;
+
+}
+.radio-name{
+  height: 130px;
+  margin-top: 32px;
+  background-image: url('Gold-Texture.jpg');
+  border: solid 2px #ffe7a6;
+  border-radius: 20px;
+}
+.round-dial{
+  border-radius: 100px;
+  background-image: url('Gold-Texture.jpg');
+  width: 50px;
+  height: 50px;
+  border: solid 2px #000;
+}
+.on-off{
+
+}
+.volume{
+
+}
+.tuning{
+
+}
+.radio-txt{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  color:#fff0c7;
+  text-align: center;
+  margin-top: 15%;
+}
