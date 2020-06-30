@@ -33,7 +33,7 @@
 .gold-trim{
   padding: 50px;
   height: 342px;
-  background-image: url('Gold-Foil.jpg');
+  background-image: url('imgs/Gold-Foil.jpg');
   border-radius: 20px;
 }
 .dial-numbers{
@@ -46,15 +46,16 @@
 .radio-name{
   height: 130px;
   margin-top: 32px;
-  background-image: url('Gold-Texture.jpg');
+  background-image: url('imgs/Gold-Texture.jpg');
   border: solid 2px #ffe7a6;
   border-radius: 20px;
   text-align:center;
   animation: border-flicker 2s linear infinite;
 }
-.round-dial{
+.round-dial x-knob{
   border-radius: 100px;
-  background-image: url('Gold-Texture.jpg');
+  background-image: url('imgs/Gold-Texture.jpg');
+  fill:#ebc51e;
   width: 50px;
   height: 50px;
   border: solid 2px #000;
@@ -80,38 +81,38 @@
   0% {
     opacity:0.1;
     -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
--moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   }
   2% {
     opacity:1;
     -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
--moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   }
   4% {
     opacity:0.1;
     -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
--moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   }
 
   8% {
     opacity:1;
     -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
--moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   }
   70% {
     opacity:0.7;
     -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
--moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   }
   100% {
     opacity:1;
     -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
--moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    -moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+    box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   }
 }
