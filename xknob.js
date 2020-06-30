@@ -479,7 +479,12 @@ if (!window.XKnob) {
 						} else {
 							this.shadowRoot.querySelector('defs').innerHTML = '' +
 								'<symbol id="default_x-knob_gfx" viewBox="-6 -6 12 12">' +
-								'  <circle cx="0" cy="0" r="5.875" stroke="#2e3436" fill="#ebc51e" stroke-width="0.25"/>' +
+								'	 <defs>'+
+								'	 <pattern id="image" x="0" y="5" patternUnits="userSpaceOnUse" height="1" width="1">'+
+								'	 <image x="0" y="0" xlink:href="imgs/Gold-Texture.jpg"></image>'+
+								'	 </pattern>'+
+								'	 </defs>'+
+								'  <circle cx="0" cy="0" r="5.875" stroke="#2e3436" fill="url(#image)" stroke-width="0.25"/>' +
 								'  <line x1="0" y1="-1.5" x2="0" y2="-4.75" stroke="#2e3436" stroke-width="0.5px" stroke-linecap="round"/>' +
 								'</symbol>';
 						}
