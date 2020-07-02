@@ -53,10 +53,10 @@
   animation: border-flicker 2s linear infinite;
 }
 .round-dial x-knob{
-  border-radius: 100px;
+  /* border-radius: 100px;
   width: 50px;
   height: 50px;
-  border: solid 2px #000;
+  border: solid 2px #000; */
 }
 .on-off{
 
@@ -74,6 +74,45 @@
   text-align: center;
   margin-top: 15%;
 }
+
+/* Radio button */
+.btn {
+  top: 12.5vmin;
+  right: 5vmin;
+  padding: 1.3vmin 0 1.1vmin;
+  width: 6.5vmin;
+  background: currentColor;
+  box-shadow: inset 0 0 3vmin rgba(0, 0, 0, 0.2), 0 0 6vmin rgba(118, 255, 204, 0.75);
+  color: #10ffa6;
+  line-height: 1;
+  font-family: "ATC Timberline";
+  font-size: 1vmin;
+  text-transform: uppercase;
+  text-align: center;
+}
+.btn span {
+  color: white;
+  transition: color 0.3s;
+}
+
+.radio-btn {
+  top: auto;
+  bottom: 5vmin;
+  cursor: pointer;
+  box-shadow: inset 0 0 3vmin rgba(0, 0, 0, 0.2), 0 0 6vmin rgba(102, 247, 255, 0.75);
+  color: #00f1ff;
+  transition: box-shadow 0.3s;
+}
+.radio-btn span {
+  color: rgba(255, 255, 255, 0.7);
+}
+.radio-btn:hover, .radio-btn.is-active {
+  box-shadow: inset 0 0 3vmin rgba(0, 0, 0, 0.3), 0 0 6vmin #66f7ff;
+}
+.radio-btn:hover span, .radio-btn.is-active span {
+  color: white;
+}
+
 
 @keyframes border-flicker {
   0% {
