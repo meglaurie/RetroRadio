@@ -6,6 +6,12 @@
 
 }
 
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(1000px, auto);
+}
+
 .radio-body{
   width: 80%;
   height: 400px;
@@ -24,22 +30,26 @@
     linear-gradient(45deg, transparent 37%, #ffe7a6 0, #ffe7a6 63%, transparent 0) #291302;
     background-size: 45px 45px;
   border-radius: 20px;
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
 }
 .dial-side{
   width: 95%;
   height: 350px;
   border-radius: 20px;
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
 }
 .gold-trim{
   padding: 50px;
-  height: 342px;
+  height: 275px;
   background-image: url('imgs/Gold-Foil.jpg');
   border-radius: 20px;
 }
 .dial-numbers{
   padding: 30px;
   background-color: #291302;
-  height: 263px;
+  height: 200px;
   border-radius: 20px;
 
 }

@@ -1,7 +1,7 @@
 function startTime(){
   // get the audio player going
 var radio = document.createElement("AUDIO");
-radio.setAttribute("src","http://blobfolio.com/codepenfiles/atc-flip-clock/390917_AhWilderness.mp3");
+radio.setAttribute("src","radio website goes here");
 radio.setAttribute("id", "radio-player");
 radio.setAttribute("loop", "true");
 radioBtn = document.getElementById("radio-btn");
